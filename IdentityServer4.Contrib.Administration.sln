@@ -19,6 +19,8 @@ ProjectSection(SolutionItems) = preProject
 	LICENSE = LICENSE
 	README.md = README.md
 	Directory.Build.props = Directory.Build.props
+	.travis.yml = .travis.yml
+	test.sh = test.sh
 EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServer4.Contrib.Administration.Controllers", "src\IdentityServer4.Contrib.Administration.Controllers\IdentityServer4.Contrib.Administration.Controllers.csproj", "{BC8DE26E-BFF7-4F5E-B067-D07525A46F1B}"

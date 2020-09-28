@@ -30,4 +30,12 @@
     <ProjectReference Include="..\..\src\IdentityServer4.Contrib.Administration\IdentityServer4.Contrib.Administration.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Include="appsettings.CI.json">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>
